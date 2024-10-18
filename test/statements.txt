@@ -1,0 +1,32 @@
+# Line Comment
+
+% Just a comment
+
+==>
+
+Program(Comment)
+
+# Line Comment without space between %
+
+%Just a comment
+
+==>
+
+Program(Comment)
+
+# Assignment
+
+width:=100;
+
+==>
+
+Program(Assignment(Identifier,Expression(Term(Factor(Number)))))
+
+
+# Declaration
+
+path p;
+
+==>
+
+Program(Assignment(Identifier,Expression(Term(Factor(Number)))))
